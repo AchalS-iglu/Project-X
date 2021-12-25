@@ -3,3 +3,4 @@ venv/
 __pycache__/
 uploaders/__pycache__/
 tortle.jpg
+auth.ini
