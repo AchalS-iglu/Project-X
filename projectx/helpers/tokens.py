@@ -9,7 +9,7 @@ IMGUR_CLIENT_SECRET = os.environ.get("IMGUR_CLIENT_SECRET")
 import configparser
 
 authParser = configparser.ConfigParser()
-authParser.read('auth.ini')
+authParser.read('data/auth.ini')
 
 
 MEDIAFIRE_EMAIL = authParser['MEDIAFIRE']['EMAIL']

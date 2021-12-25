@@ -1,6 +1,6 @@
 from imgurpython import ImgurClient
 
-from tokens import IMGUR_CLIENT_ID, IMGUR_CLIENT_SECRET
+from helpers.tokens import IMGUR_CLIENT_ID, IMGUR_CLIENT_SECRET
 
     
 def upload(image):
